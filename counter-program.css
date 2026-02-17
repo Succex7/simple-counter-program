@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    margin-top: 10rem;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10em;
+}
+
+#btnContainer {
+    text-align: center;
+    gap: 3px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: hsla(212, 63%, 47%, 0.781);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border: none;
+    
+}
+
+.button:hover {
+    background-color: hsla(229, 88%, 51%, 0.781);
+}
+
+@media (max-width: 1080px) {
+    .button {
+        padding: 5px 20px;
+        font-size: 1em;
+        transition: background-color 0.25s;
+    }
+
+    .button:active {
+        background-color: hsla(204, 63%, 47%, 0.781);
+    }
+}
